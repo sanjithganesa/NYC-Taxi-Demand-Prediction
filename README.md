@@ -1,6 +1,3 @@
-Here’s a **comprehensive `README.md`** for your NYC taxi demand prediction project using your adjacency matrix and simple feedforward model:
-
-```markdown
 # NYC Taxi Demand Prediction
 
 This project implements a **spatio-temporal taxi demand prediction system** for New York City using historical trip data. It constructs a **graph-based adjacency matrix** of taxi zones and trains a **simple feedforward neural network** to predict future demand at each zone. The project also includes visualization of predictions for real-world scenarios.
@@ -50,7 +47,7 @@ The goal is to predict taxi demand for each zone in NYC based on historical trip
 
 Spatio_Case_study/
 │
-├─ data/
+├─ data.zip/
 │   ├─ nyc/                 # Preprocessed sparse matrices & adjacency matrix
 │   └─ nyc_raw/             # Original taxi zone lookup
 │
@@ -59,8 +56,11 @@ Spatio_Case_study/
 │
 ├─ build_adj_matrix.py      # Builds adjacency matrix from sparse matrices
 ├─ train.py                 # Trains the SimpleFC model
+├─ download_stream.py       # To download the required data (ignore)
+├─ preprocess_nyc.py        # To preprocess the raw data (ignore)
 ├─ evaluate.py              # Evaluates model predictions
 ├─ real_world_demo.py       # Real-world prediction demo and heatmaps
+├─ real_world_demo_heatmaps.png #generated image from rel_world_demo.py
 └─ README.md
 
 ````
@@ -158,10 +158,3 @@ This can help taxi operators or city planners **anticipate demand** in different
 3. SciPy Sparse Matrix Utilities: [https://docs.scipy.org/doc/scipy/reference/sparse.html](https://docs.scipy.org/doc/scipy/reference/sparse.html)
 
 ---
-
-```
-
-This README explains **dataset, workflow, usage, and real-world applicability**, while keeping all your original file names intact.  
-
-I can also **draft a “Results & Screenshots” section** showing your heatmaps and predictions visually—great for reports or publications. Do you want me to add that?
-```
