@@ -47,7 +47,7 @@ The goal is to predict taxi demand for each zone in NYC based on historical trip
 
 Spatio_Case_study/
 │
-├─ data.zip/
+├─ data.zip/                # unzip before use
 │   ├─ nyc/                 # Preprocessed sparse matrices & adjacency matrix
 │   └─ nyc_raw/             # Original taxi zone lookup
 │
