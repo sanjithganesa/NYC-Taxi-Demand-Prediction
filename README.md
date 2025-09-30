@@ -55,6 +55,7 @@ Spatio_Case_study/
 │   └─ nyc_model.pt         # Trained model
 │
 ├─ build_adj_matrix.py      # Builds adjacency matrix from sparse matrices
+├─ plots/                   #plots from evaluate.py
 ├─ train.py                 # Trains the SimpleFC model
 ├─ download_stream.py       # To download the required data (ignore)
 ├─ preprocess_nyc.py        # To preprocess the raw data (ignore)
